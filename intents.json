@@ -1,0 +1,94 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": ["What is Simplilearn?"],
+     "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
+     "context": [""]
+    },
+    {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "I need a good laugh"],
+        "responses": ["Sure! Why did the scarecrow win an award? Because he was outstanding in his field!", "Why don’t skeletons fight each other? They don’t have the guts!", "Want to hear a joke about paper? Never mind, it’s tearable!"],
+        "context": [""]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I need motivation", "Inspire me", "Give me a motivational quote", "I feel down"],
+        "responses": ["Believe in yourself! You are stronger than you think.", "Keep going, you're doing great!", "Success is not final, failure is not fatal: it is the courage to continue that counts."],
+        "context": [""]
+      },
+      {
+        "tag": "online_learning",
+        "patterns": ["What are online courses?", "Can you explain e-learning?", "What is an online Bootcamp?"],
+        "responses": ["Online courses are educational programs available on the internet that allow learners to study at their own pace.", "E-learning is a method of education that uses electronic resources, often through the internet.", "An online Bootcamp is an intensive training program designed to teach specific skills in a short period of time."],
+        "context": [""]
+      },
+      {
+        "tag": "certifications",
+        "patterns": ["What are professional certifications?", "Why should I get certified?", "Are certifications useful?"],
+        "responses": ["Professional certifications validate your skills and knowledge in a specific field.", "Getting certified can improve your job prospects and credibility in the industry.", "Certifications help demonstrate your expertise and can lead to career growth."],
+        "context": [""]
+      },
+      {
+        "tag": "data_science",
+        "patterns": ["What is Data Science?", "Can you explain Data Science?", "Tell me about Data Science"],
+        "responses": ["Data Science is a field that uses scientific methods, algorithms, and systems to extract insights from data.", "It involves statistics, programming, and machine learning to analyze and interpret data.", "Data Science helps businesses make data-driven decisions."],
+        "context": [""]
+      },
+      {
+        "tag": "cyber_security",
+        "patterns": ["What is Cyber Security?", "How does Cyber Security work?", "Why is Cyber Security important?"],
+        "responses": ["Cyber Security is the practice of protecting systems, networks, and data from digital attacks.", "It involves measures like encryption, firewalls, and monitoring to prevent cyber threats.", "Cyber Security is crucial for protecting personal and business information from hackers."],
+        "context": [""]
+      },
+      {
+        "tag": "cloud_computing",
+        "patterns": ["What is Cloud Computing?", "Explain Cloud Computing", "How does Cloud Computing work?"],
+        "responses": ["Cloud Computing allows users to access and store data over the internet instead of on local servers.", "It enables businesses to use computing resources on demand without owning physical infrastructure.", "Cloud services like AWS, Azure, and Google Cloud offer scalable and flexible computing solutions."],
+        "context": [""]
+      },
+      {
+        "tag": "artificial_intelligence",
+        "patterns": ["What is Artificial Intelligence?", "Tell me about AI", "How does AI work?"],
+        "responses": ["Artificial Intelligence (AI) refers to the simulation of human intelligence in machines.", "AI enables computers to learn, reason, and make decisions without explicit programming.", "AI technologies like machine learning and neural networks are transforming industries worldwide."],
+        "context": [""]
+      },
+      {
+        "tag": "programming_languages",
+        "patterns": ["What are popular programming languages?", "Which coding language should I learn?", "Tell me about Python"],
+        "responses": ["Some popular programming languages include Python, Java, JavaScript, C++, and SQL.", "The best language to learn depends on your goals—Python for data science, JavaScript for web development, etc.", "Python is widely used in AI, web development, and data science due to its simplicity and versatility."],
+        "context": [""]
+      },
+      {
+        "tag": "digital_marketing",
+        "patterns": ["What is Digital Marketing?", "Can you explain SEO?", "How does Social Media Marketing work?"],
+        "responses": ["Digital Marketing involves promoting products or services online using various strategies like SEO and social media marketing.", "SEO (Search Engine Optimization) improves a website’s visibility in search engine results.", "Social Media Marketing uses platforms like Facebook and Instagram to engage with audiences and promote brands."],
+        "context": [""]
+      },
+      {
+        "tag": "career_growth",
+        "patterns": ["How can I advance my career?", "What skills are in demand?", "How do I get a better job?"],
+        "responses": ["Upskilling through certifications and courses can help advance your career.", "In-demand skills include data science, cloud computing, cyber security, and digital marketing.", "Building a strong resume, networking, and continuous learning can improve your job prospects."],
+        "context": [""]
+      },
+      {
+        "tag": "free_courses",
+        "patterns": ["Are there free courses available?", "Where can I find free learning resources?", "Can I learn new skills for free?"],
+        "responses": ["Yes, many platforms offer free courses in various fields.", "You can find free learning resources on platforms like Coursera, Udemy, and Khan Academy.", "Some websites provide free trial courses or open-source learning materials."],
+        "context": [""]
+      }
+]}
